@@ -894,6 +894,7 @@ display: none;
   .partners {
     font-size: 2rem;
     margin-left: 22rem;
+    color: white;
   }
 
   .speakers-group {
@@ -1049,6 +1050,7 @@ display: none;
   .partners {
     font-size: 2rem;
     margin-left: 37rem;
+    color: white;
   }
 
   .program img {
@@ -1172,5 +1174,9 @@ display: none;
 
   .partnerp {
     background-color: #272a31;
+  }
+
+  .footer-logo img {
+    margin-bottom: 2rem;
   }
 }
