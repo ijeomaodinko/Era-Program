@@ -1,0 +1,1176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+}
+
+.header {
+  display: block;
+}
+
+.logodiv {
+  display: none;
+}
+
+.headercontent {
+  display: none;
+}
+
+/* .sectionlogo {
+display: none;
+} */
+
+.hamburgerimage {
+  display: none;
+  width: 20px;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* .sectionlogo {
+display: none;
+} */
+
+.sectiontitle {
+  background-image: url(/img/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.abouttitle {
+  margin-left: 1rem;
+}
+
+.about-title {
+  margin-top: 5rem;
+}
+
+.listitems a {
+  color: #272a31;
+  text-decoration: none;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  color: #ff1717;
+  text-align: center;
+}
+
+.about-details {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-detailsp {
+  background-color: rgb(205, 210, 216);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.nav {
+  width: auto;
+}
+
+.contact-us {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.email-contact {
+  font-size: 16px;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.global {
+  margin-left: 0.5rem;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logodetail {
+  margin-left: 0.5rem;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.eralogo {
+  text-align: center;
+  margin-top: 7rem;
+  top: 100%;
+  font-size: 19px;
+  margin-bottom: 0;
+}
+
+.imgi {
+  display: block;
+  position: absolute;
+  width: 20%;
+  left: 41%;
+  cursor: pointer;
+}
+
+.img {
+  position: absolute;
+  width: 70%;
+  left: 25%;
+  cursor: pointer;
+}
+
+.speaker2-hr {
+  font-weight: bold;
+  width: 3rem;
+  margin-top: -1rem;
+  border: 1px solid red;
+  position: absolute;
+  left: 45%;
+}
+
+.p-text {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.imgi1 {
+  width: 298px;
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.about-img-courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  top: 0;
+}
+
+.about-img2,
+.about-img1 {
+  position: relative;
+  background: #000 url(img/enterprenuerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem 0;
+  color: #fff;
+  height: 17rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: red;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.footer-logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #414246;
+  color: #fff;
+  padding: 2.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* .footer-logo {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer-logo img {
+  width: 10rem;
+  margin: 0 0.5rem;
+}
+
+.footer2-img img {
+  max-width: 40%;
+}
+
+.footer-about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2e2e2e;
+  padding: 2.5rem 0;
+  max-width: 100%;
+  color: #fff;
+  height: auto;
+}
+
+/*
+.footer2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: baseline;
+  background-color: #d7d7d7;
+  max-width: 100%;
+} */
+
+.footer2-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0 0 0;
+  max-width: 100%;
+}
+
+.footer-desc {
+  margin-right: 4rem;
+}
+
+.footer-logo-text {
+  font-weight: bolder;
+  font-size: 1rem;
+  max-width: 8rem;
+  align-self: center;
+  margin-right: 0.6rem;
+}
+
+.about-hr {
+  background-color: rgb(199, 194, 194);
+  width: 100%;
+}
+
+.speaker1-hr {
+  font-weight: bold;
+  width: 3rem;
+  margin-top: 1rem;
+  border: 1px solid red;
+}
+
+.logo-text {
+  font-weight: 600;
+  margin: 0 2rem;
+  font-size: 0.7rem;
+}
+
+.about-logo img {
+  width: 10rem;
+}
+
+.about-logo p {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.about-logo h2 {
+  margin-top: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* home page */
+
+.hamburgerimage2 {
+  display: flex;
+  position: fixed;
+  width: 5%;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.titlei {
+  font-size: 1.9rem;
+  color: #ff1717;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.titleheading {
+  font-size: 1.9rem;
+  color: #ff1717;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+.titledetail {
+  margin-top: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  background-color: rgb(196, 202, 209);
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+}
+
+.date {
+  font-size: 1.39rem;
+  margin-top: 2rem;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+}
+
+.ivenue {
+  font-size: 0.79rem;
+  margin-left: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.programsection {
+  background-image: url(img/bg-1.png);
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.main {
+  margin-bottom: 0.5rem;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.program {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  gap: 0.6rem;
+  background: none;
+  padding-left: 0.5rem;
+}
+
+.desc3 {
+  margin-left: 0.9rem;
+  color: white;
+}
+
+.desc3e {
+  margin-left: 1.9rem;
+  color: white;
+}
+
+.desc3i {
+  margin-left: 0.4rem;
+  color: white;
+}
+
+.program h3 {
+  color: rgb(236, 72, 72);
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+.footeritems {
+  margin-left: 2rem;
+  list-style: none;
+}
+
+.aboutsee {
+  text-align: center;
+  color: white;
+}
+
+/* mobile pop-up */
+
+.pop-up {
+  display: flex;
+  background-color: rgba(170, 208, 219, 0.8);
+  left: 0;
+  top: 100px;
+  flex-direction: column;
+  position: absolute;
+  gap: 25px;
+  padding-left: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  list-style: none;
+  line-height: 44px;
+}
+
+.listitems {
+  list-style: none;
+}
+
+.listitems ul li {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 3.5rem;
+  padding-left: 260px;
+  color: #f5f0f0;
+  margin-top: 16px;
+}
+
+.hamburg {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 2rem;
+  padding: 0.2rem 0 0 1rem;
+  position: fixed;
+}
+
+/* speakers */
+.speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 0 0 2rem 2rem;
+}
+
+.speakers h2 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.speaker-hr {
+  background-color: #3c3f45;
+}
+
+.speaker-group img {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  height: 30%;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.speaker-group {
+  display: flex;
+  align-items: center;
+}
+
+.speaker-desc-holder {
+  margin-right: 1rem;
+  max-width: 50%;
+}
+
+.speaker-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #535353;
+}
+
+.speaker-job {
+  font-size: 0.8rem;
+  color: #e85242;
+  font-style: italic;
+}
+
+.speaker-desc {
+  font-size: 0.8rem;
+}
+
+.program-text {
+  padding: 1.5rem 0;
+}
+
+.partnerp {
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+}
+
+.up-menu a {
+  color: #344563;
+}
+
+.partnerimg {
+  display: block;
+  width: 10%;
+  left: 50%;
+  position: absolute;
+}
+
+.footerimg {
+  width: 66%;
+  margin-left: 4rem;
+}
+
+.footerimg1 {
+  width: 20%;
+  margin-left: 0;
+  left: 50%;
+  margin-top: 4rem;
+}
+
+.logo {
+  display: none;
+}
+
+.partnerfooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.footertext {
+  margin-top: 2rem;
+}
+
+.footertext p {
+  text-align: center;
+}
+
+.hamburger {
+  display: none;
+}
+
+.partners {
+  font-size: 2rem;
+  margin-left: 8rem;
+}
+
+.speaker1m-hr {
+  font-weight: bold;
+  width: 3rem;
+  border: 1px solid red;
+  margin-left: 10rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: baseline;
+  background-color: #050505;
+  min-width: 100%;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburgerimage {
+    display: none;
+  }
+
+  .hamburgerimage2 {
+    display: none;
+  }
+
+  .pop {
+    display: none;
+  }
+
+  .logodiv {
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    min-width: 768px;
+    width: 100%;
+    height: 2.6rem;
+    position: fixed;
+  }
+
+  .headercontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-left: 55%;
+    position: fixed;
+  }
+
+  .sectionlogo {
+    display: flex;
+  }
+
+  /* .logo {
+    display: block;
+  } */
+
+  .items {
+    display: flex;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    min-width: 768px;
+    width: 100%;
+    height: 4.5rem;
+    background-color: white;
+    margin-top: -4rem;
+    position: fixed;
+  }
+
+  .listitems {
+    display: flex;
+    flex-direction: row;
+    gap: 1.56rem;
+    list-style: none;
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+    font-size: 18px;
+  }
+
+  .listitems a {
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  .listitems2 {
+    border: 4px solid red;
+    margin-left: -2rem;
+  }
+
+  .logo {
+    display: block;
+    width: 160px;
+  }
+
+  .imglogo {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 0;
+    width: 20%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  #close-in {
+    display: flex;
+    color: black;
+    width: 39px;
+  }
+
+  .sectiontitle {
+    display: block;
+    min-width: 768px;
+    width: 100%;
+  }
+
+  .about-title {
+    width: 80%;
+    padding-left: 6rem;
+    padding-top: 4rem;
+  }
+
+  .description {
+    font-family: sans-serif;
+    font-size: 60px;
+  }
+
+  .about-detailsp {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+
+  .about-details {
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .email-contact {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .about-logo p {
+    width: 50%;
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  .logo-text {
+    font-size: 21px;
+  }
+
+  .global {
+    margin-top: 2rem;
+  }
+
+  .about-img-courses {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 0.6rem;
+    color: white;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
+
+  .titlei {
+    font-family: sans-serif;
+    margin-top: 10rem;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 6%;
+  }
+
+  .titleheading {
+    font-family: sans-serif;
+    font-size: 64px;
+    text-align: left;
+    width: 80%;
+    line-height: 64px;
+  }
+
+  .desc1 {
+    margin-left: 6%;
+    margin-top: 2rem;
+  }
+
+  .titledetail {
+    width: 80%;
+    border: 2px solid white;
+    background: none;
+    margin-top: 2rem;
+    padding-top: 0.69rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    text-align: left;
+  }
+
+  .date {
+    margin-left: 6%;
+  }
+
+  .ivenue {
+    margin-left: 6%;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+    gap: 0.6rem;
+    background: #ffffff1a;
+    padding-left: 0.5rem;
+    height: 6rem;
+    margin-left: 2rem;
+  }
+
+  .programsection {
+    background-image: url(img/bg-1.png);
+    width: 90%;
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    margin-left: 2.5rem;
+  }
+
+  .main {
+    font-size: 39px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .program h3 {
+    color: rgb(228, 26, 26);
+    font-size: 16px;
+    padding-left: 0.6rem;
+    padding-top: 0.65rem;
+    margin-left: 0.65rem;
+    margin-top: 1.5rem;
+    width: 8rem;
+  }
+
+  .program img {
+    padding-left: 1.65rem;
+  }
+
+  .imglecture {
+    padding-left: 1.65rem;
+  }
+
+  .speaker-group {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desc3e {
+    margin-left: 0;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .desc3 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .desc3i {
+    margin-top: 2rem;
+  }
+
+  .aboutsee {
+    margin-top: 2.5rem;
+    font-size: 29px;
+    font-family: sans-serif;
+    text-align: right;
+  }
+
+  .partners {
+    font-size: 2rem;
+    margin-left: 22rem;
+  }
+
+  .speakers-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0.5rem 0 2rem 0.5rem;
+  }
+
+  .speaker-image {
+    width: 40%;
+  }
+
+  .footeritems {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 16rem;
+  }
+
+  .speaker1m-hr {
+    font-weight: bold;
+    width: 3rem;
+    border: 1px solid red;
+    margin-left: 24rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footerimg {
+    margin-top: 2rem;
+    margin-left: 12rem;
+    width: 40%;
+    margin-right: 4rem;
+  }
+
+  .footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: baseline;
+    background-color: #050505;
+    min-width: 100%;
+    color: white;
+  }
+
+  .partnerfooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .hamburgerimage2 {
+    display: none;
+  }
+
+  .pop {
+    display: none;
+  }
+
+  .logodiv {
+    display: flex;
+    background-color: black;
+    color: white;
+    min-width: 1100px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+  }
+
+  .headercontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-left: 90%;
+    position: fixed;
+  }
+
+  .sectionlogo {
+    display: flex;
+  }
+
+  .logo {
+    display: block;
+    width: 40%;
+  }
+
+  .items {
+    display: flex;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    min-width: 768px;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    margin-top: -4rem;
+    position: fixed;
+  }
+
+  .listitems {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+
+  .listitems a {
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  .listitems2 {
+    padding: 0.5rem;
+  }
+
+  .imglogo {
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    width: 10%;
+  }
+
+  .speaker1m-hr {
+    font-weight: bold;
+    width: 3rem;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .partners {
+    font-size: 2rem;
+    margin-left: 37rem;
+  }
+
+  .program img {
+    padding-left: 1.65rem;
+    width: 39%;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+  }
+
+  img.imglecture {
+    width: 30%;
+  }
+
+  .titledetail {
+    width: 60%;
+    font-weight: 400;
+    line-height: 39px;
+  }
+
+  .titleheading {
+    width: 798px;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 84px;
+  }
+
+  /* .listitems {
+      margin-left: 29rem;
+    } */
+
+  .titlei {
+    font-size: 39px;
+    color: rgb(250, 63, 16);
+  }
+
+  .date {
+    font-size: 29px;
+    color: #535353;
+  }
+
+  .ivenue {
+    font-size: 19px;
+    margin-top: 0;
+  }
+
+  .program {
+    display: inline-block;
+    height: 12.625em;
+    flex-direction: column;
+    width: 12rem;
+    text-align: center;
+    background: #ffffff1a;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+  }
+
+  .main-program {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: white;
+  }
+
+  .speakers-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0.5rem 0 2rem 0.5rem;
+  }
+
+  .speaker-image {
+    width: 40%;
+  }
+
+  .desc3 {
+    margin-left: 0.5rem;
+    font-size: 12px;
+    margin-right: 0.5rem;
+  }
+
+  .desc3e {
+    margin-left: 0.5rem;
+    font-size: 12px;
+    margin-right: 0.5rem;
+  }
+
+  .desc3i {
+    margin-left: 0.5rem;
+    font-size: 12px;
+    margin-right: 0.5rem;
+  }
+
+  .program h3 {
+    /* margin-left: 2rem; */
+    text-align: center;
+  }
+
+  .programsection {
+    margin-left: 4rem;
+    margin-right: 2rem;
+    width: 90%;
+  }
+
+  .footerimg {
+    margin-top: 2rem;
+    width: 39%;
+  }
+
+  .footeritems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .partnerp {
+    background-color: #272a31;
+  }
+}
