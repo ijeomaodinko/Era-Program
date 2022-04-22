@@ -4,8 +4,10 @@ const popupWindow = document.getElementById('about');
 
 hamburger.addEventListener('click', () => {
   popupWindow.classList.toggle('hidden');
+  hamburger.classList.add('active');
 });
 
 closebutton.addEventListener('click', () => {
   popupWindow.classList.toggle('hidden');
+  hamburger.classList.remove('active');
 });

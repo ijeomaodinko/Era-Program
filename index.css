@@ -290,6 +290,7 @@ display: none;
   max-width: 8rem;
   align-self: center;
   margin-right: 0.6rem;
+  margin-top: -1rem;
 }
 
 .about-hr {
@@ -482,6 +483,10 @@ display: none;
   display: none;
 }
 
+#pop.active {
+  display: none;
+}
+
 .close {
   cursor: pointer;
   border: none;
@@ -636,6 +641,19 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.speaker1mi-hr {
+  font-weight: bold;
+  width: 3rem;
+  border: 1px solid red;
+
+  /* margin-left: 24rem; */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
 .footer2 {
   display: flex;
   justify-content: space-evenly;
@@ -644,7 +662,7 @@ body {
   background-color: #050505;
   min-width: 100%;
   color: white;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -964,13 +982,15 @@ body {
     font-size: 29px;
 
     /* font-family: sans-serif; */
-    text-align: right;
+    text-align: center;
   }
 
   .partners {
     font-size: 2rem;
-    margin-left: 22rem;
-    color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
   .speakers-group {
@@ -1001,9 +1021,23 @@ body {
     font-weight: bold;
     width: 3rem;
     border: 1px solid red;
-    margin-left: 24rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .speaker1mi-hr {
+    font-weight: bold;
+    width: 3rem;
+    border: 1px solid red;
+
+    /* margin-left: 24rem; */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
   }
 
   .footerimg {
@@ -1018,10 +1052,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
     align-self: baseline;
-    background-color: #050505;
+    background-color: #d3d3d3;
     min-width: 100%;
-    color: white;
-    margin-bottom: 4rem;
+    color: #272a31;
+    margin-bottom: 0;
+    margin-top: -2rem;
   }
 
   .partnerfooter {
@@ -1034,6 +1069,11 @@ body {
 
   .footer-logo img {
     margin-bottom: 2rem;
+  }
+
+  .footer-logo-text {
+    margin-top: -2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -1145,10 +1185,20 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .speaker1mi-hr {
+    font-weight: bold;
+    width: 3rem;
+    border: 1px solid red;
+    margin-left: 39rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .partners {
     font-size: 2rem;
-    margin-left: 37rem;
     color: white;
+    justify-content: center;
+    padding-top: 2rem;
   }
 
   .program img {
@@ -1209,8 +1259,10 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 4rem;
-    margin-left: 4rem;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 
   .speakers-group {
@@ -1276,5 +1328,16 @@ body {
 
   .footer-logo img {
     margin-bottom: 2rem;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-logo-text {
+    margin-top: -2rem;
+    padding-bottom: 2rem;
   }
 }
