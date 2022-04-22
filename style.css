@@ -433,7 +433,7 @@ display: none;
   flex-direction: column;
   position: absolute;
   gap: 25px;
-  padding-left: 70px;
+  padding-left: 0;
 
   /* font-family: 'Poppins', sans-serif; */
 
@@ -555,6 +555,13 @@ display: none;
   font-size: 0.8rem;
   color: #e85242;
   font-style: italic;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .speaker-desc {
@@ -715,7 +722,8 @@ display: none;
     gap: 1.56rem;
     list-style: none;
     margin-top: 0.65rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    position: fixed;
 
     /* font-family: 'Nanum Gothic'; */
     font-size: 15px;
@@ -759,7 +767,7 @@ display: none;
   .imglogo {
     display: block;
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
     width: 50%;
     padding-left: 1rem;
     padding-bottom: 2rem;
@@ -1093,7 +1101,7 @@ display: none;
     gap: 2rem;
     list-style: none;
     margin-top: 0.5rem;
-    margin-left: -12rem;
+    margin-left: -6rem;
     font-size: 18px;
     color: #888
 
@@ -1123,8 +1131,10 @@ display: none;
   .imglogo {
     display: block;
     margin-top: 0.5rem;
-    margin-left: 4rem;
-    width: 20%;
+    margin-left: 5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.65rem;
+    width: 16%;
   }
 
   .speaker1m-hr {
