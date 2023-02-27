@@ -1,17 +1,5 @@
 const speakersArray = [
-  // {
-  //   name: 'Ezzra Pritol',
-  //   role: 'Ceo of at Era',
-  //   description: 'studied at howard university ',
-  //   photo: 'img/speaker_01.png',
-  // },
-  // {
-  //   name: 'Kam Chon',
-  //   role: 'Head front end team at Era',
-  //   description: 'Kilnam studied IT at Barclays High school.',
-  //   photo: 'img/speaker_03.png',
-  // },
-  {
+   {
     name: 'SohYeong Noh',
     role: 'Head back end web developers team Era',
     description: 'SohYeong studied IT at Havard High school as a back end web developer. ',
